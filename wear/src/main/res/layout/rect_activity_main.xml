@@ -12,12 +12,13 @@
     <FrameLayout
         android:layout_width="140dp"
         android:layout_height="147dp"
-        android:padding="5dp"
+        android:padding="-14dp"
         app:layout_box="all"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="7dp">
 
     <!--<TextView android:id="@+id/text" android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content" android:text="@string/hello_square" />-->
