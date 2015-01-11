@@ -142,7 +142,8 @@ public class CarControl extends Activity{
             String l = convertInputStreamToString(a);
             JSONObject object = (JSONObject) new JSONTokener(l).nextValue();
             Log.d("door checked", object.toString());
-            int[] z = {Integer.parseInt(object.getString("lat")),Integer.parseInt(object.getString("lon"))};
+//            int[] z = {Integer.parseInt(object.getString("lat")),Integer.parseInt(object.getString("lon"))};
+            int[] z = {38,-122};
             return z;
         } catch (Exception e) {
             e.printStackTrace();
